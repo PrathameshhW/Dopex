@@ -7,10 +7,10 @@ const Header = () => {
       <section className="h-wrapper">
         <div className="flexCenter paddings innerWidth h-container">
           <div className="flexCenter h-logo">
-            <a href="http://localhost:5173/">
+            <a href="">
               <img src="./logo.svg" alt="" width={38} />
             </a>
-            <a href="http://localhost:5173/" className="whiteText">
+            <a href="" className="whiteText">
               DOPEX
             </a>
           </div>
