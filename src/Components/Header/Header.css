@@ -1,0 +1,23 @@
+.h-wrapper {
+  background: var(--black);
+}
+.h-container {
+  justify-content: space-between !important;
+  padding: 1.6rem 0;
+  font-size: 1rem;
+}
+.h-logo {
+  gap: 1rem;
+  text-align: center;
+}
+.h-logo > a {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.h-menu {
+  gap: 2rem;
+  font-size: 1.3rem !important;
+}
+.h-menu > a:hover {
+  color: white;
+}

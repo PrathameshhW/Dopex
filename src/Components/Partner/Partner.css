@@ -1,0 +1,32 @@
+.p-container {
+  margin-top: 4rem;
+  color: white;
+}
+.p-container > .gradientText {
+  margin-bottom: 3rem;
+}
+.p-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 15rem;
+  row-gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.p-images > .primaryHeading {
+  font-size: 3.5rem; /* Adjust font size as needed */
+}
+.image {
+  filter: brightness(0) invert(1);
+}
+.image:nth-child(7) {
+  filter: brightness(1) invert(0);
+}
+
+@media screen and (max-width: 900px) {
+  .p-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

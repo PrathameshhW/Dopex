@@ -1,0 +1,34 @@
+.f-wrapper {
+  margin-top: 3rem;
+}
+.f-wrapper > .flexRowStart {
+  justify-content: flex-start !important;
+  column-gap: 4rem;
+}
+.f-headings {
+  row-gap: 2rem;
+}
+.f-headings > span {
+  font-size: 1.2rem;
+}
+.f-links {
+  column-gap: 4rem;
+}
+
+.f-links > .flexColStart > span {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1000px) {
+  .f-wrapper > .flexRowStart {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .f-container > .flexRowStart {
+    flex-direction: column;
+  }
+  .f-links {
+    row-gap: 1rem;
+    flex-direction: column;
+  }
+}
